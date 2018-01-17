@@ -6,7 +6,7 @@ int main()
 
     printf("Enter an alphabet:");
     scanf("%c",&ch);
-    Lower = (ch == 'a' ||\ ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u');
+    Lower = (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u');
     Upper = (ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U');
     if (Lower || Upper)
         printf("%c is a vowel.", ch);
