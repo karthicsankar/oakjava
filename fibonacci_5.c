@@ -2,7 +2,7 @@
  
 void main()
 {
-    int  a = 0, b = 1, c, limit, count = 0;
+    int  a = 0, b = 1, d, limit, count = 0;
  
     printf("Enter the limit to generate the Fibonacci Series \n");
     scanf("%d", &limit);
@@ -12,7 +12,7 @@ void main()
     count = 2;
     while (count < limit)
     {
-        c = a + b;
+        d = a + b;
         count++;
         printf("%d\n", c);
         a = b;
